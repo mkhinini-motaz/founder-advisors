@@ -1,0 +1,32 @@
+name: Country pack
+description: Propose a country pack, or claim one so nobody else starts it.
+title: "Country pack: "
+labels: ["country-pack"]
+body:
+  - type: input
+    id: country
+    attributes:
+      label: Country
+    validations:
+      required: true
+  - type: dropdown
+    id: intent
+    attributes:
+      label: What do you want to do?
+      options:
+        - Claim this country and write the pack
+        - Propose it for someone else to write
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Which files (tax, business law, market, tech) and which sources you plan to use.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rules
+      options:
+        - label: I have read the country pack rules in CONTRIBUTING.md.
+          required: true

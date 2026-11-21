@@ -1,0 +1,49 @@
+# Sources: Hamdi Ulukaya
+
+Video and podcast sources are transcripts from captions, which may be auto-generated and contain errors.
+
+41 sources, 148,250 words. Raw text lives in `build/hamdi-ulukaya/corpus/` (gitignored).
+
+| id | title | url | date | file |
+|---|---|---|---|---|
+| S002 | Why true success goes beyond profit with Chobani founder Hamdi Ulukaya (Transcript)Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917 | https://www.ted.com/podcasts/ted-interview/why-true-success-goes-beyond-profit |  | S002-why-true-success-goes-beyond-profit-with-chobani-founder-ham.md |
+| S003 | Hamdi Ulukaya: Creating the Right Environment | https://gsb.stanford.edu/insights/hamdi-ulukaya-creating-right-environment |  | S003-hamdi-ulukaya-creating-the-right-environment.md |
+| S006 | Why Chobani Gave Employees A Financial Stake In Company's Future | https://www.npr.org/transcripts/476021520 | 2016-04-28 | S006-why-chobani-gave-employees-a-financial-stake-in-company-s-fu.md |
+| S007 | Ahead of World Refugee Day, Chobani founder appeals to CEOs | https://www.pbs.org/newshour/nation/ahead-of-world-refugee-day-chobani-founder-appeals-to-ceos | 2019-06-16 | S007-ahead-of-world-refugee-day-chobani-founder-appeals-to-ceos.md |
+| S008 | Transcript: Mayor Mamdani Participates in Fireside Chat With Chobani CEO Hamdi Ulukaya at the Choose NYC Summit | https://www.nyc.gov/mayors-office/news/2026/06/transcript--mayor-mamdani-participates-in-fireside-chat-with-cho.html | 2026 | S008-transcript-mayor-mamdani-participates-in-fireside-chat-with-.md |
+| S010 | The anti-CEO playbook / Hamdi Ulukaya — TED — Rosetta | https://rosetta.to/u/ted/the-anti-ceo-playbook-hamdi-ulukaya | 2019-06-20 | S010-the-anti-ceo-playbook-hamdi-ulukaya-ted-rosetta.md |
+| S013 | Leading with Humility and Audacity | https://acumen.org/blog/leading-with-humility-and-audacity/ | 2025-06-13 | S013-leading-with-humility-and-audacity.md |
+| S014 | Looking Back at 2019: Hamdi Ulukaya's Anti-CEO Playbook | https://www.foodprocessing.com/articles/2020/anti-ceo-playbook/ | Jan 5th 20 | S014-looking-back-at-2019-hamdi-ulukaya-s-anti-ceo-playbook.md |
+| S016 | People Over Profits: A Guide to Mission-Driven Business with Chobani Founder Hamdi Ulukaya — Summit Sessions | https://summit.co/videos/people-over-profits-a-guide-to-mission-driven-business-with-chobani-founder-hamdi-ulukaya-3cbs7c7loUKgFJutHwaq3P |  | S016-people-over-profits-a-guide-to-mission-driven-business-with-.md |
+| S022 | Hamdi Ulukaya, Creating the Culture of Chobani | https://www.goldmansachs.com/insights/talks-at-gs/hamdi-ulukaya |  | S022-hamdi-ulukaya-creating-the-culture-of-chobani.md |
+| S024 | Hamdi Ulukaya of Chobani Talks Greek Yogurt and the American Dream / brandknewmag:Actionable Intelligence on Advertising,Marketing,Branding | https://www.brandknewmag.com/?p=13159 | 2018-08-30 | S024-hamdi-ulukaya-of-chobani-talks-greek-yogurt-and-the-american.md |
+| S025 | Chobani CEO says he won't be captive to profit demands | https://krdo.com/?p=959190 | 2023-05-01 | S025-chobani-ceo-says-he-won-t-be-captive-to-profit-demands.md |
+| S029 | "Be adaptable.  Be curious. Be kind." - Chobani Founder and CEO Hamdi Ulukaya delivers keynote to Class of 2025 / Utica University | https://www.utica.edu/college-community/utica-stories/be-adaptable-be-curious-be-kind-chobani-founder-and-ceo-hamdi-ulukaya-delivers-keynote-class-2025 |  | S029-be-adaptable-be-curious-be-kind-chobani-founder-and-ceo-hamd.md |
+| S031 | Chobani Founder & CEO Hamdi Ulukaya's Keynote Address at ADL's 2019 Never Is Now Summit on Anti-Semitism and Hate | https://www.adl.org/news/article/chobani-founder-ceo-hamdi-ulukayas-keynote-address-at-adls-2019-never-is-now-summit-on |  | S031-chobani-founder-ceo-hamdi-ulukaya-s-keynote-address-at-adl-s.md |
+| S036 | Lessons from Hamdi Ulukaya | https://www.antoinebuteau.com/lessons-from-hamdi-ulukaya/ | 2026-06-30 | S036-lessons-from-hamdi-ulukaya.md |
+| S037 | Hamdi Ulukaya's "anti-CEO playbook" is about community, responsibility, and accountability, instead of maximising value for shareholders - Peter Fisk | https://www.peterfisk.com/?p=11576 | 2019-04-28 | S037-hamdi-ulukaya-s-anti-ceo-playbook-is-about-community-respons.md |
+| S040 | Hamdi Ulukaya: Chobani Founder on Business, Refugees & Doing Good - Thought Economics | https://thoughteconomics.com/hamdi-ulukaya/ | 2020-04-01 | S040-hamdi-ulukaya-chobani-founder-on-business-refugees-doing-goo.md |
+| S041 | Chobani's billionaire founder on creating jobs in America | https://www.cbsnews.com/news/chobani-yogurt-billionaire-founder-on-creating-jobs-in-america/ | 2017-04-09 | S041-chobani-s-billionaire-founder-on-creating-jobs-in-america.md |
+| S043 | "The anti-CEO playbook" with Chobani founder Hamdi Ulukaya (Transcript)Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917 | https://www.ted.com/podcasts/rethinking-with-adam-grant/anti-ceo-playbook-with-chobani-founder-hamdi-ulukaya-transcript |  | S043-the-anti-ceo-playbook-with-chobani-founder-hamdi-ulukaya-tra.md |
+| S047 | Hamdi Ulukaya | https://www.givingpledge.org/?p=149 | 2021-11-16 | S047-hamdi-ulukaya.md |
+| S048 | Founder of Chobani Yogurt Pledges $2-Million for Syrian and Iraqi Refugees | https://www.philanthropy.com/opinion/founder-of-chobani-yogurt-pledges-2-million-for-syrian-and-iraqi-refugees/ | 2014-10-10 | S048-founder-of-chobani-yogurt-pledges-2-million-for-syrian-and-i.md |
+| S050 | Chobani CEO Hamdi Ulukaya Has a Message on Refugees Every Business Needs to Hear | https://www.yahoo.com/news/chobani-ceo-hamdi-ulukaya-message-230100209.html | 2016-02-05 | S050-chobani-ceo-hamdi-ulukaya-has-a-message-on-refugees-every-bu.md |
+| S053 | Chobani Founder Hamdi Ulukaya Inspired to Help Refugees Following Lesvos Visit - The Pappas Post | https://pappaspost.com/?p=9095 | 2015-11-18 | S053-chobani-founder-hamdi-ulukaya-inspired-to-help-refugees-foll.md |
+| S054 | Navigating values in business: Insights from Patagonia and Chobani CEOs | https://fastcompany.co.za/impact/2025-11-15-navigating-values-in-business-insights-from-patagonia-and-chobani-ceos | 1763211600 | S054-navigating-values-in-business-insights-from-patagonia-and-ch.md |
+| S055 | The anti-CEO playbook / Hamdi Ulukaya | https://www.youtube.com/watch?v=SGTMSV8QUrs |  | S055-the-anti-ceo-playbook-hamdi-ulukaya.md |
+| S056 | The Business of Hiring Refugees with Yogurt Tycoon Hamdi Ulukaya / In the City | https://www.youtube.com/watch?v=04NDbdnZY7w | 2024-03-28 | S056-the-business-of-hiring-refugees-with-yogurt-tycoon-hamdi-ulu.md |
+| S057 | Hamdi Ulukaya, founder & CEO of Chobani, on food insecurity (Full Stream 4/12) | https://www.youtube.com/watch?v=64Nk1I6PgiA | 2021-04-12 | S057-hamdi-ulukaya-founder-ceo-of-chobani-on-food-insecurity-full.md |
+| S058 | TimesTalks Festival: Corner Office with David Gelles and Hamdi Ulukaya | https://www.youtube.com/watch?v=88J23gB8Jpg | 2018-04-14 | S058-timestalks-festival-corner-office-with-david-gelles-and-hamd.md |
+| S059 | Hamdi Ulukaya, CEO and founder of Chobani | https://www.youtube.com/watch?v=KH7e0lZa5xY | 2022-02-14 | S059-hamdi-ulukaya-ceo-and-founder-of-chobani.md |
+| S060 | Finding Your Purpose: Why Putting Purpose Over Profits is Good for Business / SXSW 2023 | https://www.youtube.com/watch?v=kmFPDETVNo4 | 2023-03-29 | S060-finding-your-purpose-why-putting-purpose-over-profits-is-goo.md |
+| S061 | Chobani Founder Hamdi Ulukaya on the Journey from Abandoned Factory to Yogurt Powerhouse | https://www.youtube.com/watch?v=ofNJk_r3I8A | 2022-04-21 | S061-chobani-founder-hamdi-ulukaya-on-the-journey-from-abandoned-.md |
+| S063 | Inspiring 2023 Commencement Keynote Speech: Hamdi Ulukaya, Chobani CEO | https://www.youtube.com/watch?v=qWGZg0_kPhM | 2023-06-06 | S063-inspiring-2023-commencement-keynote-speech-hamdi-ulukaya-cho.md |
+| S064 | One on One Conversation with President Bill Clinton and Hamdi Ulukaya - CGI 2016 Winter Meeting | https://www.youtube.com/watch?v=tgjqzO63XfM | 2016-02-08 | S064-one-on-one-conversation-with-president-bill-clinton-and-hamd.md |
+| S065 | Chobani CEO on entrepreneurship, immigration and the state of the American Dream | https://www.youtube.com/watch?v=w0JgLNtjsKo | 2023-03-13 | S065-chobani-ceo-on-entrepreneurship-immigration-and-the-state-of.md |
+| S066 | Building a business with immigrants / VPRO Documentary | https://www.youtube.com/watch?v=r_RmlME3fow |  | S066-building-a-business-with-immigrants-vpro-documentary.md |
+| S067 | The Dairy Man / “We Made $1B Before Running Any Ads” / Chobani Founder Hamdi Ulukaya | https://www.youtube.com/watch?v=-YjP2arxOPQ | 2024-05-15 | S067-the-dairy-man-we-made-1b-before-running-any-ads-chobani-foun.md |
+| S068 | Chobani Founder Hamdi Ulukaya: Innovation Doesn't Stop With Your Product / Inc. Magazine | https://www.youtube.com/watch?v=i8Gaimc-0nk | 2014-12-24 | S068-chobani-founder-hamdi-ulukaya-innovation-doesn-t-stop-with-y.md |
+| S069 | Hamdi Ulukaya, Founder of Chobani, Speaks at Empact Summit | https://www.youtube.com/watch?v=iMhVJs92xhI | 2012-10-31 | S069-hamdi-ulukaya-founder-of-chobani-speaks-at-empact-summit.md |
+| S070 | Chobani Yogurt CEO: I Had No Business Experience | https://www.youtube.com/watch?v=PksULWzDiVE | 2014-02-12 | S070-chobani-yogurt-ceo-i-had-no-business-experience.md |
+| S075 | Chobani CEO urges hiring refugees to help solve migrant crisis - Latest News | https://hurriyetdailynews.com/chobani-ceo-urges-hiring-refugees-to-help-solve-migrant-crisis-88834 | 2015-09-22 | S075-chobani-ceo-urges-hiring-refugees-to-help-solve-migrant-cris.md |
+| S079 | Northeastern undergraduate Commencement: Chobani CEO urges Class of 2022 to challenge things that make them ‘uncomfortable in the world’ | https://news.northeastern.edu/?p=132477 | 2022-05-14 | S079-northeastern-undergraduate-commencement-chobani-ceo-urges-cl.md |

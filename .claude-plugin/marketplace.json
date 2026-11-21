@@ -1,0 +1,15 @@
+{
+  "name": "founder-advisors",
+  "description": "Staff advisors and a decision board for a founder's company.",
+  "owner": {
+    "name": "mkhinini-motaz",
+    "url": "https://github.com/mkhinini-motaz"
+  },
+  "plugins": [
+    {
+      "name": "founder-advisors",
+      "source": "./",
+      "description": "Ten staff advisors for a founder's company (CEO, CFO, accountant, legal, marketing, sales, ops, design, architecture, data), a 52-seat decision board built from public work, and a skill to build your own advisors."
+    }
+  ]
+}

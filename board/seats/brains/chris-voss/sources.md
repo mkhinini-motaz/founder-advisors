@@ -1,0 +1,32 @@
+# Sources: Chris Voss
+
+Video and podcast sources are transcripts from captions, which may be auto-generated and contain errors.
+
+24 sources, 304,911 words. Raw text lives in `build/chris-voss/corpus/` (gitignored).
+
+| id | title | url | date | file |
+|---|---|---|---|---|
+| S002 | EP216-BrainfluencePodcastTranscript.pdf | https://rogerdooley.com/wp-content/uploads/2018/05/EP216-BrainfluencePodcastTranscript.pdf |  | S002-ep216-brainfluencepodcasttranscript-pdf.md |
+| S003 | Insights from a Brilliant Negotiator with Chris Voss, Best-selling Author and CEO of the Black Swan Group (MDE322) / Minter Dial | https://www.minterdial.com/2019/04/great-negotiations-chris-voss/ | 2019-04-07 | S003-insights-from-a-brilliant-negotiator-with-chris-voss-best-se.md |
+| S005 | Transcript of How to Negotiate As If Your Life Depended On It | https://ducttapemarketing.com/transcript-of-how-to-negotiate-as-if-your-life-depended-on-it/ | 2017-03-29 | S005-transcript-of-how-to-negotiate-as-if-your-life-depended-on-i.md |
+| S007 | Podcast #234: Haggling and Deal Making Advice From a FBI Hostage Negotiator / The Art of Manliness | https://www.artofmanliness.com/articles/podcast-234-haggling-and-deal-making-advice-from-a-fbi-hostage-negotiator/ | 2016-09-14 | S007-podcast-234-haggling-and-deal-making-advice-from-a-fbi-hosta.md |
+| S010 | A Field-Tested Approach to Negotiation with Chris Voss | https://www.marketingspeak.com/a-field-tested-approach-to-negotiation-with-chris-voss/ | 2019-11-06 | S010-a-field-tested-approach-to-negotiation-with-chris-voss.md |
+| S011 | How To Negotiate Like An FBI Agent / Chris Voss / Modern Wisdom Podcast 237 — Chris Williamson — Rosetta | https://rosetta.to/u/chriswillx/how-to-negotiate-like-an-fbi-agent-chris-voss-modern-wisdom-podcast-237 | 2020-10-26 | S011-how-to-negotiate-like-an-fbi-agent-chris-voss-modern-wisdom-.md |
+| S012 | Chris Voss: FBI Hostage Negotiator / Lex Fridman Podcast #364 — Lex Fridman — Rosetta | https://rosetta.to/u/lexfridman/chris-voss-fbi-hostage-negotiator-lex-fridman-podcast-364 | 2023-03-10 | S012-chris-voss-fbi-hostage-negotiator-lex-fridman-podcast-364-le.md |
+| S013 | Jocko Podcast 354: Everything in Life Is A Negotiation. With Chris Voss. — Jocko Podcast — Rosetta | https://rosetta.to/u/jockopodcastofficial/jocko-podcast-354-everything-in-life-is-a-negotiation-with-chris-voss | 2022-10-06 | S013-jocko-podcast-354-everything-in-life-is-a-negotiation-with-c.md |
+| S018 | FBI’s Top Hostage Negotiator: The Art Of Negotiating To Get Whatever You Want: Chris Voss / E147 — The Diary Of A CEO — Rosetta | https://rosetta.to/u/thediaryofaceo/fbi-s-top-hostage-negotiator-the-art-of-negotiating-to-get-whatever-you-want-chr | 2022-05-30 | S018-fbi-s-top-hostage-negotiator-the-art-of-negotiating-to-get-w.md |
+| S019 | Never Split the Difference / Chris Voss / Talks at Google — Talks at Google — Rosetta | https://rosetta.to/u/talksatgoogle/never-split-the-difference-chris-voss-talks-at-google?t=0 | 2016-05-27 | S019-never-split-the-difference-chris-voss-talks-at-google-talks-.md |
+| S021 | Chris Voss: Never Split the Difference / Scribe Media | https://scribemedia.com/author-hour/episode/ep-56-chris-voss-never-split-the-difference |  | S021-chris-voss-never-split-the-difference-scribe-media.md |
+| S023 | Chris Voss: How to Succeed at Hard Conversations | https://www.hubermanlab.com/episode/chris-voss-how-to-succeed-at-hard-conversations |  | S023-chris-voss-how-to-succeed-at-hard-conversations.md |
+| S024 | Chris Voss: Advanced Negotiation / E144 - YAP / Young and Profiting / Hosted By Hala Taha | https://youngandprofiting.com/?p=11411 | 2021-12-06 | S024-chris-voss-advanced-negotiation-e144-yap-young-and-profiting.md |
+| S030 | FBI Negotiator Teaches Art Of Negotiation (Masterclass w/ Chris Voss) — The Futur — Rosetta | https://rosetta.to/u/thefutur/fbi-negotiator-teaches-art-of-negotiation-masterclass-w-chris-voss | 2023-07-20 | S030-fbi-negotiator-teaches-art-of-negotiation-masterclass-w-chri.md |
+| S031 | 5 Lessons in Business Negotiation from an FBI Hostage Negotiator — My First Million — Rosetta | https://rosetta.to/u/myfirstmillionpod/5-lessons-in-business-negotiation-from-an-fbi-hostage-negotiator | 2025-09-17 | S031-5-lessons-in-business-negotiation-from-an-fbi-hostage-negoti.md |
+| S032 | 9 Tools From a Hostage Negotiator That Will Get You a Raise / Chris Voss / EP 425 — Jordan B Peterson — Rosetta | https://rosetta.to/u/jordanbpeterson/9-tools-from-a-hostage-negotiator-that-will-get-you-a-raise-chris-voss-ep-425?t=0 | 2024-02-22 | S032-9-tools-from-a-hostage-negotiator-that-will-get-you-a-raise-.md |
+| S033 | Master the ART OF NEGOTIATION and WIN Any Exchange / Chris Voss — Tom Bilyeu — Rosetta | https://rosetta.to/u/tombilyeu/master-the-art-of-negotiation-and-win-any-exchange-chris-voss | 2022-03-01 | S033-master-the-art-of-negotiation-and-win-any-exchange-chris-vos.md |
+| S036 | Chris Voss On Never Split The Difference And World-Class Negotiating | https://robertglazer.com/?p=11299 |  | S036-chris-voss-on-never-split-the-difference-and-world-class-neg.md |
+| S037 | Chris Voss: Founder & CEO of The Black Swan Group and Author of Never Split The Difference | https://karagoldin.com/podcast/354 |  | S037-chris-voss-founder-ceo-of-the-black-swan-group-and-author-of.md |
+| S048 | 311: Communication Secrets from FBI Kidnapping Negotiator Chris Voss - How to be Awesome at Your Job | https://awesomeatyourjob.com/311-communication-secrets-from-fbi-kidnapping-negotiator-chris-voss/ | 2018-06-20 | S048-311-communication-secrets-from-fbi-kidnapping-negotiator-chr.md |
+| S050 | The FBI Hostage Negotiator - with Chris Voss | https://thecyberwire.com/podcasts/spycast/655/transcript |  | S050-the-fbi-hostage-negotiator-with-chris-voss.md |
+| S051 | Hostage Negotiation Interview - EXTENDED - Barking Up The Wrong Tree | https://bakadesuyo.com/?p=27076 |  | S051-hostage-negotiation-interview-extended-barking-up-the-wrong-.md |
+| S058 | https://www.buzzsprout.com/2014652/14852310/transcript | https://www.buzzsprout.com/2014652/14852310/transcript |  | S058-https-www-buzzsprout-com-2014652-14852310-transcript.md |
+| S062 | Secrets from a Former FBI Negotiator on How to Get What You Want / Next Big Idea Club | https://nextbigideaclub.com/magazine/conversation-secrets-from-a-former-fbi-negotiator-on-how-to-get-what-you-want/19805/amp/ |  | S062-secrets-from-a-former-fbi-negotiator-on-how-to-get-what-you-.md |

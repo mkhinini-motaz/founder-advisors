@@ -1,0 +1,31 @@
+# Stories: Deepinder Goyal
+
+Built from 37 public sources, 2015 to 2026.
+
+1. Menus on the intranet, 2008. At Bain he and Pankaj Chaddah scanned the cafeteria's takeaway menus onto the intranet; it spread across Delhi; first line of Foodiebay code was written on 23 December 2007. Lesson: the company is accidental, born from wanting to be useful. (S010, S063, S037; S085 tells it with garbled captions, so details are loose)
+2. Foodlet, 2005. His first startup, an online food delivery site, failed in about six months, "way too early". Lesson: timing. (S037, S069)
+3. The one million dollar cheque, 2010. Sanjeev Bikhchandani of Info Edge decided in minutes; Goyal said yes in seven or eight. Lesson: a quick yes from an informed investor. In S090 he took Bikhchandani's first email for a sales email, replied at 2 am, overslept a 9 am slot and still made the 3 pm one; S085 tells the times differently. Lesson there: let mentors come. (S079, S037, S077, S090, S085)
+4. The overseas rush, 2015 to 2016. Too many countries too fast, a funding drought, a valuation cut by HSBC, 300 layoffs (10 percent). Lesson: moderation; say no. (S036, S063)
+5. The 2017 breach. 17 million user records leaked; he told the team to calm down for five minutes, reached out to the hacker and set up a bug bounty. (S063)
+6. Covid, 2020. Revenue collapsed to 15 percent, cash was down to 45 days, nobody would invest; over 80 percent of about 4,000 staff took salary cuts for ESOPs. Lesson: trust pays back. (S072, S077, S079)
+7. The Blinkit bet. He bought it though shares fell, because he had never used so addictive a service; investors attacked the price and his past acquaintance with the founder, so he answered with valuations, a fairness opinion and a 97 percent vote. Lesson: answer governance criticism with process. (S031, S072)
+8. The 45-day rider shortage, spring 2022. Do not read a temporary courier squeeze as structural. (S028, S031)
+9. Pankaj Chaddah leaves, 2018. Goyal says it was more on him; leadership styles differed; he "fired himself" as CEO in his head and ran product. Lesson: wire people to the work. (S016, S072)
+10. Retirement mode after the IPO. A leader checked out; he stepped in. He also tried to chill for a few months and saw it would end the organisation. Lesson: the founder sets the tone. (S079)
+11. Salesman bribe. A salesman cut a restaurant's commission from 15 to 10 percent for a 15,000 rupee bribe; ethics classes followed. Lesson: fraud is an incentive problem. (S072)
+12. Chandigarh closes. Hyperpure shut a city for lack of density. Lesson: close early. (S032)
+13. Google's decade. Google tried to own transactions and Booking.com, Expedia and Amazon survived. Lesson: habit apps resist general interfaces. (S039)
+15. Stammer. Bullied as small, dark and stammering; "Even if I stammer now, people will hear me." Lesson: it drove the need to achieve; he gets sick before stage events. (S014, S072, S079)
+16. Dubai and the ten-country rush, 2012. Dubai traffic passed its population in six months and it broke even, which gave false confidence; ten launches in six months failed in half. Lesson: one size does not fit all markets. (S090)
+17. New Zealand, a two-minute call. Out of frustration with the market leader he phoned its founder, who wanted out; USD 1 million was paid in New Zealand dollars and revenue passed the price in 18 months. Lesson: buy the local monopoly. (S090)
+18. The 25 million round. A prominent Indian VC proposed 25 million instead of 30 and offered to hide the lower price from the team; he refused. Lesson: trust is the real term. (S090)
+19. Near death about six times. The company lives on a two-year cycle, effectively new every couple of years; stock hit rock bottom on his birthday the year before; he repeats find 20 other ways. Lesson: survival is the only continuous effort. (S100, S088, S085). S102 (2023) adds the competitor with a billion dollars against his 100 million.
+20. The 10-minute delivery pilot, 2023. It did not work and gave way to home-cooked food and food from other cities; the instant-food pilot in two kitchens followed in 2022. Lesson: pilot small and let the business keep evolving. (S099, S089, S102)
+21. The stock fall, 2023. After the IPO the stock went from 150 to 40; he did not look at it and found both the high and the low unreal. After the IPO he also went through a phase of looking for a new self, then decided to bring back the same energy as before. Lesson: ignore the price, keep the work. (S102)
+22. The customer frequency climb. First orders are a birthday cake, a sick family member or a missing maid; then match night; frequency goes 4, 10, 20, 40, 80 a year. Lesson: young cohorts are the growth. (S102)
+23. Four months of money, burn cut each month, and the UAE sale when Swiggy raised a billion: sold the UAE business for 170 million dollars and fought again with the same approach. Lesson: gun to your head, solve it. (S112, S115)
+24. The 2005 food ordering app: his first serious startup failed; reviews and menus were its trimmed-down version, and delivery came later when the market was ready. Lesson: keep the goal, change the entry. (S112)
+25. The international rush: thought India small, went abroad, shut it at 93 percent of revenue. Lesson: stay in one market until it saturates. (S112)
+26. The stammer, new detail: 42 percent in class 11, friends' parents told them not to befriend him, he left home at 15, no all-hands in seven or eight years; his father sent two lakhs, almost all his savings, when he quit. Lesson: he wanted his own circle to value what he said, and it grew far beyond that. (S113)
+27. Temple and gravity aging: he priced a six-hour healthy routine, found the math did not add up, looked for a leverage point, searched a month, ran contra teams who all converted, built a device, then published once his team had answered the first scientists who dismissed it. Lesson: disprove first, then say it publicly. (S114)
+28. Domain names: he buys .com names for the name alone and had eternal.com about three years before founding Eternal. Lesson: he thinks a business without a .com is not legit, and life connects in hindsight. (S114)

@@ -1,0 +1,39 @@
+{
+  "name": "founder-advisors",
+  "version": "0.3.0",
+  "description": "Ten staff advisors for a founder's company (CEO, CFO, accountant, legal, marketing, sales, ops, design, architecture, data), a 52-seat decision board built from public work, and a skill to build your own advisors.",
+  "author": {
+    "name": "mkhinini-motaz",
+    "url": "https://github.com/mkhinini-motaz"
+  },
+  "homepage": "https://github.com/mkhinini-motaz/founder-advisors",
+  "repository": "https://github.com/mkhinini-motaz/founder-advisors",
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/mkhinini-motaz/founder-advisors#readme",
+  "supportUrl": "https://github.com/mkhinini-motaz/founder-advisors/issues",
+  "keywords": [
+    "claude-code",
+    "subagents",
+    "advisors",
+    "founder",
+    "decision-board",
+    "agent-skills"
+  ],
+  "skills": [
+    "./skills/hire",
+    "./board"
+  ],
+  "agents": [
+    "./staff/agents/accountant.md",
+    "./staff/agents/ceo.md",
+    "./staff/agents/cfo.md",
+    "./staff/agents/data-analyst.md",
+    "./staff/agents/legal-counsel.md",
+    "./staff/agents/marketer.md",
+    "./staff/agents/ops-lead.md",
+    "./staff/agents/product-designer.md",
+    "./staff/agents/sales-lead.md",
+    "./staff/agents/software-architect.md"
+  ]
+}

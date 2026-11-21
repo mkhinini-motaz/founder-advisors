@@ -1,0 +1,60 @@
+name: Eval result
+description: Share what you measured on your project, wins and null results alike.
+title: "Eval result: "
+labels: ["eval-result"]
+body:
+  - type: input
+    id: project-type
+    attributes:
+      label: Project type
+      description: For example, B2B SaaS, mobile app, agency. No company names needed.
+    validations:
+      required: true
+  - type: input
+    id: roles
+    attributes:
+      label: Roles tested
+      placeholder: ceo, cfo
+    validations:
+      required: true
+  - type: input
+    id: cases
+    attributes:
+      label: Number of cases
+    validations:
+      required: true
+  - type: input
+    id: wins
+    attributes:
+      label: Advisor wins vs the --pointer baseline
+      placeholder: "2 of 6"
+    validations:
+      required: true
+  - type: input
+    id: trials
+    attributes:
+      label: Trials per case
+  - type: input
+    id: judge
+    attributes:
+      label: Judge model
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Advisor model
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What changed your result? Which cases surprised you?
+  - type: checkboxes
+    id: private
+    attributes:
+      label: Check before sending
+      options:
+        - label: I removed company-private details.
+          required: true

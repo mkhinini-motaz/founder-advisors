@@ -1,0 +1,29 @@
+# Principles: Richard Thaler
+
+Built from 32 sources, 2011 to 2026. Confidence: high = 3+ sources, medium = 2, low = 1. Most-used first.
+
+1. **If you want people to do something, make it easy.** Remove the barrier; doing nothing is the easiest action. "if you want people to do something, make it easy. That’s a rule. That’s always true." (S026) Also "if you want people to do something make it easy" (S002). Sources: 12 (S001, S002, S007, S011, S012, S026, S031, S032, S034, S038, S041, S040). Confidence: high.
+2. **Cancelling must be as easy as joining.** Sludge is the seller using friction against the customer. "lots of services make it very easy to join and very difficult to un-join." (S007) Sources: 6 (S002, S007, S011, S012, S019, S032). Confidence: high.
+3. **Do not raise prices on customers who are stuck; keep a limit on surge.** The extra money is small and the goodwill lost is large. "there’s nothing wrong with surge pricing, but you have to put a limit on it" (S026) Also "They are smartly playing a long game" (S024). Sources: 4 (S001, S024, S026, S039). Confidence: high.
+4. **Take the long view with customers; do not try to win every exchange.** "I would prefer to run a firm that people come back to because they think they can trust us." (S039) Also "Don't don't try to win every exchange." (S039). Sources: 3 (S015, S024, S039). Confidence: high.
+5. **Ignore sunk costs yourself, assume customers do not.** "ignore sunk costs, but assume everyone else doesn’t." (S035) Sources: 6 (S008, S009, S019, S024, S035, S034). Confidence: high.
+6. **Give the thing, not the cash, when you want a particular use.** Cash gets labelled as something else. "So I've learned my lesson." (S040) Sources: 3 (S026, S040, S038 inferred from the inherited-shares story). Confidence: high.
+7. **Set defaults for the lazy majority, and set them well.** A low default becomes everyone's rate. "most plans default people into too low of a saving rate." (S013) Sources: 8 (S002, S009, S013, S014, S018, S024, S035, S041). Confidence: high.
+8. **A nudge must be transparent and easy to refuse.** "We insist that nudging be transparent." (S035) Sources: 4 (S002, S011, S035, S015). Confidence: high.
+9. **Run experiments; settle arguments with data.** "You could learn something. By trying stuff." (S020) Also "when you can, you should run experiments." (S001). Sources: 9 (S001, S002, S019, S020, S022, S023, S008, S026, S012). Confidence: high.
+10. **Do not oversell nudging; where there is an externality, use price or a mandate.** "We’re quite explicit that we don’t think nudging is the answer to everything." (S032) Sources: 5 (S007, S011, S032, S035, S038). Confidence: high.
+11. **In a bidding war you cannot value, bid below your estimate or walk away.** "the more bidders there are, the less you should bid." (S026) Sources: 6 (S008, S018, S020, S026, S039, S040). Confidence: high.
+12. **Do not pay a premium to pick first when the forecast is near a coin flip.** "you shouldn't give away the house for the right to pick the first one rather than the second one" (S039) Sources: 5 (S004, S010, S022, S026, S040). Confidence: high.
+13. **It is easier to make money exploiting a bias than fixing it, so know who is exploiting your customer.** "It's much easier to make money exploiting irrationalities than fixing them." (S013) Sources: 4 (S003, S006, S013, S008). Confidence: high.
+14. **Name things for what a customer will choose.** "simply changing the name of the catastrophic policy to economy or value in our experiments reduced the number of uninsured by 10%." (S038) Also "you almost can’t think of a name worse than “reverse mortgage.”" (S032). Sources: 3 (S019, S032, S038). Confidence: high.
+15. **Check that what you push people toward is in their interest.** "we have to be quite confident that if we're trying to encourage someone to do something that it's actually in their best interest" (S041) Sources: 3 (S041, S035, S034). Confidence: high.
+16. **Understand the system before designing the default.** "There are no simple answers. You really have to understand the system you’re working in, in order to create the right choice architecture." (S035) Sources: 2 (S035, S018). Confidence: medium.
+17. **Take small gains; "better is good".** "So better is good. So we should keep nudging where we can." (S007) Sources: 3 (S007, S011, S032). Confidence: high.
+18. **Do not give people dozens of options.** Eliminate dominated options first. "start by eliminating the dominated options" (S018) Sources: 3 (S003, S013, S018). Confidence: high.
+19. **Offer a warning, not a surprise fee.** "It would be much more consumer friendly for them to beep you when you swipe your card" (S015) Sources: 1 (S015). Confidence: low.
+20. **Pay a base and add a bonus; negative bonuses are hated.** "Pay them 90 and say, if you do something good, you get a hundred" (S020) Sources: 1 (S020). Confidence: low.
+21. **Ask why customers are not doing what you want and remove the reason, not blame them.** Inferred from S007, S026, S032. "I don’t really think people are dumb. I think the world is hard." (S026) Confidence: high.
+22. **Do not give investment advice; ignore the market.** "I always tell people ignore the market watch the football" (S016) Sources: 4 (S014, S016, S019, S020). Confidence: high.
+23. **Learn the critic's first three objections and answer them.** "we want to think of the first three objections that our chief critic is going to make and we want to preempt those." (S008) Sources: 2 (S008, S012). Confidence: medium.
+24. **A reform that gives both sides something passes.** Inferred from S015, S040 (the 2006 pension bargain traded paperwork relief for auto-enrolment). Sources: 2. Confidence: medium.
+25. **Use a commitment device when you know your own weakness.** "a good way to get yourself to do something is have a commitment." (S026) Sources: 5 (S003, S009, S015, S026, S032). Confidence: high.

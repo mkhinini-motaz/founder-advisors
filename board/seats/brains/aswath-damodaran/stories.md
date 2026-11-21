@@ -1,0 +1,21 @@
+# Stories: Aswath Damodaran
+
+Built from 65 of his blog posts (2011 to 2026). The stories and cases he reuses, with the lesson and source ids.
+
+1. **Uber, 2014 to 2019.** He valued Uber at about 6 billion dollars in June 2014 against a VC price of 17 billion; Bill Gurley said he missed how far it would change logistics. Lesson: "Bill was right, I was wrong, and I did underestimate Uber's growth potential" (S038). He then opened the valuation to readers (S057), revalued at 23.4 billion in 2015 (S052), and later split value by users (S037). A cramped market definition is the commonest error. Also S030, S032, S033, S060.
+2. **Amazon, the Field of Dreams company.** Bezos sells below cost to build revenue, betting profit follows; the market's patience rests on narrative consistency since 1997. Lesson: admire the person, test the price; margin matters more than growth. S004, S018, S034, S035, S058.
+3. **Zomato and Paytm in India.** He valued Zomato at 41 rupees against a 72 to 75 IPO; the price ran to 169, then fell back to 41.65 a year later. Paytm he valued near 2,000 rupees and it traded at 713. Lesson: he shares failures, and a price that converges to your old value proves little. S019, S020, S021, S022, S023.
+4. **WeWork and Theranos, runaway story to meltdown.** WeWork borrowed long and subleased short; the price fell from 47 billion to talk of 20 billion when the narrator lost trust. Lesson: check the business model mismatch and the personality behind the story. S004, S031.
+5. **Facebook.** IPO in 2012 found overvalued at 36 dollars, bought at 18 after the fall; bought again in 2018 after Cambridge Analytica; doubled down near 100 dollars in 2022, an exception to his rule. Lesson: price and value move together on new information, but price moves more; he also admits his 40 percent margin was hopelessly optimistic. S002, S018, S023, S061.
+6. **Tesla.** His story changed three times in three years (auto, auto plus technology, mass market); he sold at 640 in January 2020 and it tripled. Lesson: your view of the CEO is part of your view of value. S022, S026, S044.
+7. **Birkenstock IPO.** A brand valued by toggling inputs: 8.38 billion euros against a 9.2 billion offer. Lesson: put intangibles in the inputs once, then do not use them again to explain a gap to price. S014.
+8. **Peloton, Lyft, Slack, Pinterest prospectuses.** He found the same language everywhere and called it a common prospectus app. Lesson: IPO pitches share unbounded markets, scale-only models, flaky earnings measures and founder worship. S030.
+9. **Walmart buys Flipkart.** 16 billion dollars for 77 percent; he compared it to an aging actress buying a face lift. Lesson: defensive mergers signal weakness. S034.
+10. **The CEO death and exit studies.** In almost half of 240 CEO deaths the stock rose; forced replacements lift the stock. Lesson: key person value is real but often negative. Tiger Woods cost sponsors 2 to 3 percent of market value. S013, S020.
+11. **The Berkshire premium.** The Buffett and Munger premium in price to book largely dissipated; the price barely moved on Munger's death. S013.
+12. **Dot-com and the big market delusion.** Investors got the macro story right and the micro wrong, overestimating growth and underestimating entry and competition. S005, S065.
+13. **1MDB.** Malaysian fund money funded movies and lavish lifestyles, a prime minister went to jail. Lesson: assured funding without accountability ends in theft. S010.
+14. **The 2020 COVID market.** Risk capital stayed in the game; the Fed backstop worked because it was little used; flexible, capital-light companies won. S025, S027, S028, S029.
+15. **Yahoo and BlackBerry.** Soared to tens of billions and melted almost as fast. Lesson: tech companies age in dog years. S011, S020.
+16. **Twitter and Facebook as growth stocks.** Wouldn't touch Twitter at 42, interested at 15; disliked Facebook at 38, loved it at 18. Lesson: mispricing is likelier in growth stocks than in Exxon or Coca Cola. S061.
+17. **Anthropic, 2026.** His own valuation (1.45 trillion dollars, 9.74 percent cost of capital, 10 percent failure risk) against a crowd near 1 trillion; he ranked his own fragile inputs. Lesson: debate the input that drives value. S001, S002, S003, S005.

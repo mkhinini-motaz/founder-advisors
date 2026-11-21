@@ -1,0 +1,29 @@
+name: Seat removal
+description: For a person named in a board seat, or someone who acts for them.
+title: "Seat removal: "
+labels: ["seat-removal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The seat is removed within 7 days, no questions asked.
+        Do not post an email address, phone number or home address here. This issue is public. We only need the name of the seat.
+  - type: input
+    id: seat
+    attributes:
+      label: Name of the seat to remove
+    validations:
+      required: true
+  - type: dropdown
+    id: who
+    attributes:
+      label: I am
+      options:
+        - The person named
+        - Acting for the person named
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else (optional)

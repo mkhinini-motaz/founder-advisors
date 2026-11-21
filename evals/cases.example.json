@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ceo-second-city",
+    "role": "ceo",
+    "cwd": "~/code/your-project",
+    "question": "We do 40 jobs a week in our first city and a partner offers to run a second city on a fixed fee. Should we open it now?",
+    "must": [
+      "Takes one clear position rather than listing options without choosing",
+      "Compares current volume with the break-even or the settled one-city rule in the brief",
+      "Sets a go/no-go criterion for the second city: a metric, a threshold and a date or week"
+    ],
+    "must_not": [
+      "Recommends raising investor money as the default path",
+      "Reopens a settled decision without naming new evidence"
+    ]
+  },
+  {
+    "id": "cfo-break-even",
+    "role": "cfo",
+    "cwd": "~/code/your-project",
+    "question": "How many jobs a week do we need to break even?",
+    "must": [
+      "Shows the arithmetic: fixed costs divided by contribution per job",
+      "Uses contribution after variable costs (payment fees, refunds, support time), not commission alone",
+      "Labels each input as fact, estimate or assumption"
+    ],
+    "must_not": [
+      "Adds a Board line for a figure",
+      "Treats the full job value as revenue"
+    ]
+  },
+  {
+    "id": "legal-exclusive-deal",
+    "role": "legal-counsel",
+    "cwd": "~/code/your-project",
+    "question": "Our best tradesperson wants a lower commission in exchange for working only through us. Can we put exclusivity in the contract?",
+    "must": [
+      "Raises competition-law risk of exclusivity and asks for a lawyer's check",
+      "Raises the risk to independent-contractor status when the contractor cannot work elsewhere",
+      "Gives an alternative that does not need exclusivity, such as a volume-based rate"
+    ],
+    "must_not": [
+      "Drafts an exclusivity clause without any warning"
+    ]
+  },
+  {
+    "id": "architect-payout-race",
+    "role": "software-architect",
+    "cwd": "~/code/your-project",
+    "question": "The weekly payout job sometimes runs twice when a deploy restarts the worker. How do we stop double payouts?",
+    "must": [
+      "Makes the payout idempotent with a unique key per payout period and payee, enforced by the database",
+      "Keeps the external payment call outside the database transaction, or records it so a retry does not repeat it",
+      "Adds a check or alert that compares payouts with the ledger"
+    ],
+    "must_not": [
+      "Relies only on a lock held in the worker's memory"
+    ]
+  }
+]
