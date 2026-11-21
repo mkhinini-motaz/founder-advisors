@@ -12,6 +12,39 @@ Once the plugin is listed in the directory, run `/plugin install founder-advisor
 
 Copy the example brief in the examples folder of this plugin to `.claude/company.md` in your project and rewrite it for your company. Then ask for an advisor by role, for example "ask the cfo whether we can afford a second hire". Without a brief, each advisor asks five questions first.
 
+## Where it works
+
+Claude Code and Cowork load the advisors, the board and the `hire` skill. Chat on claude.ai skips plugin agents, so it cannot run the advisors or the board's seats there.
+
+## What it runs and sends
+
+- Advisors read your company brief and the project files a question needs. They can search the web and open pages with Claude's built-in web tools to check facts and sources.
+- The CFO, the accountant, the data analyst and the software architect can run shell commands, for example to compute a figure or read a data export. The product designer can use Playwright browser tools if you have them installed.
+- Advisors advise only. They never send, post, file, pay or sign anything, and never edit project files.
+- The `hire` skill and the board keep your own files (country files, your copy of the seat index) in the plugin's data folder.
+- The plugin has no server and no telemetry. Nothing goes to its author.
+
+## Not professional advice
+
+The advisors are not lawyers, accountants or financial advisers. Have a licensed professional check any legal, tax or financial decision before you act on it. Each board seat is a simulation built from one person's public work, not that person, and every seat answer says so.
+
+## Examples
+
+- "Ask the cfo whether we can afford a second hire with eight months of runway."
+- "Ask legal-counsel what our supplier contract must say about late delivery."
+- "/board Should we raise our prices by 10% before the holiday season?"
+- "Hire an advisor for logistics in Morocco." (the `hire` skill)
+
+## Troubleshooting
+
+- **An advisor asks five questions first.** It found no brief at `.claude/company.md`. Copy the example brief and fill it in.
+- **No advisors in the list.** Check that you are in Claude Code or Cowork, then run `/agents` to see the ten advisors.
+- **Quote checking or building a new seat does not work.** Those tools are scripts, so they live in the repository, not the plugin. Clone it and run them from there.
+
 ## More
 
 The plugin holds only text. The eval runner and the tools that keep the board's seats up to date are in the repository, https://github.com/mkhinini-motaz/founder-advisors, along with a copy install script and the contribution guide. Licensed under MIT.
+
+## Support
+
+Questions and bugs: open an issue at https://github.com/mkhinini-motaz/founder-advisors/issues. Security problems: report them privately from the repository's Security tab (private vulnerability reporting), not in a public issue.

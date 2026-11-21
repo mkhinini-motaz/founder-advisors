@@ -86,6 +86,6 @@ The board is a set of persona seats, each built from one founder's or thinker's 
 
 ## Keep them honest
 
-- Read each advisor's memory folder (`~/.claude/agent-memory/<agent>/`, or `founder-advisors-<agent>/` for the plugin) now and then. An advisor records what it takes for your habits, and a wrong note there shapes every later answer.
+- Read each advisor's memory folder (`~/.claude/agent-memory/<agent>/`; only a copy install with `install.sh` gives advisors memory, a plugin install has none) now and then. An advisor records what it takes for your habits, and a wrong note there shapes every later answer.
 - When an advisor says a knowledge file is wrong, fix the file and cite the source.
 - Re-check any knowledge file older than six months before relying on an exact figure from it.
