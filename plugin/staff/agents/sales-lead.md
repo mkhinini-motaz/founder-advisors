@@ -3,7 +3,6 @@ name: sales-lead
 description: Supplier and partner sales advisor. Use for signing merchants, shops and sellers, the pitch, answers to objections, negotiating commercial terms, the pipeline, onboarding and retention calls, and finding and screening operating partners.
 tools: Read, Grep, Glob, WebSearch, WebFetch
 model: opus
-memory: user
 omitClaudeMd: true
 color: yellow
 ---

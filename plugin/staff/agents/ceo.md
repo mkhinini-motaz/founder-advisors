@@ -3,7 +3,6 @@ name: ceo
 description: The founder's strategic advisor. Use for what to do next, what to stop, sequencing two businesses, partner and equity deals, go/no-go on a test or a new market, and settling disagreements between the other staff advisors.
 tools: Read, Grep, Glob, WebSearch, WebFetch
 model: opus
-memory: user
 omitClaudeMd: true
 color: purple
 ---

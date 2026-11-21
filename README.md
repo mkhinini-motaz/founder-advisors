@@ -215,7 +215,7 @@ Every win over plain Claude in the evals came from the first two items below.
   - Seats answer blind to each other.
   - A clash with a settled rule is reported as a clash, never adopted.
   - The quote checker drops any quote it cannot find word for word in the seat's sources.
-- **Advisor memory, read now and then.** An advisor writes down what it takes to be the founder's habits, and one wrong note shapes every later answer.
+- **Advisor memory, read now and then.** Only a copy install (`install.sh`) gives advisors a memory folder; a plugin install has none, because the plugin directory accepts that setting only from verified publishers. An advisor writes down what it takes to be the founder's habits, and one wrong note shapes every later answer.
 
 ## Results from other projects
 

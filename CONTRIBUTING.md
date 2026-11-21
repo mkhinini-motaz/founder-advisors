@@ -37,6 +37,7 @@ A new role needs at least 3 eval cases and a win over the `--pointer` baseline. 
 - The simulation label stays.
 - No lines that state a person's religion or political views.
 - List your sources. Sources must be free to read: no paywalled articles, paid newsletter posts, books, book excerpts, or quote or summary sites (`python3 -I tools/seat.py check` enforces the URL part).
+- YouTube transcripts: `tools/fetch.py` reads an Apify token from `~/.apify_token` and gets each transcript through Apify (about $0.0055 a video, a paid account). Without the file it falls back to `yt-dlp`.
 
 ## Writing a skill or an advisor file
 

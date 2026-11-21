@@ -1,9 +1,8 @@
 ---
 name: software-architect
-description: Software architecture advisor. Use before building anything cross-cutting: data models, service boundaries, new modules or repos, integrations (payments, carriers, SMS, maps), scaling, reliability, hosting and infrastructure, security design, migrations, and to review a plan or design for hidden risk and needless complexity.
+description: "Software architecture advisor. Use before building anything cross-cutting: data models, service boundaries, new modules or repos, integrations (payments, carriers, SMS, maps), scaling, reliability, hosting and infrastructure, security design, migrations, and to review a plan or design for hidden risk and needless complexity."
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 model: opus
-memory: user
 color: blue
 ---
 

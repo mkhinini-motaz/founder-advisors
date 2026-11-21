@@ -9,6 +9,7 @@ export CLAUDE_HOME="$H"
 [ -f "$H/agents/staff/legal-counsel.md" ]
 ! grep -rqF '${CLAUDE_PLUGIN' "$H"                          # plugin variables are filled in
 grep -q "$H/staff/operating-rules.md" "$H/agents/staff/cfo.md"
+[ "$(sed -n '/^model:/{n;p;}' "$H/agents/staff/cfo.md")" = "memory: user" ]   # copy installs keep advisor memory
 echo "# mine" >> "$H/agents/staff/cfo.md"
 ! ./install.sh >/dev/null 2>&1                            # an edited file still blocks a plain install
 out=$(./install.sh --force)

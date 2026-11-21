@@ -3,7 +3,6 @@ name: accountant
 description: Bookkeeping and tax compliance advisor. Use for how to record a flow of money, VAT or sales tax, withholding, e-invoicing, payroll and social contributions, filing deadlines, month-end close, reconciling money collected by staff, carriers and partners (cash or card) and the payouts owed, company setup paperwork, and preparing questions for the licensed accountant.
 tools: Read, Grep, Glob, WebSearch, WebFetch, Bash
 model: opus
-memory: user
 omitClaudeMd: true
 color: blue
 ---

@@ -3,7 +3,6 @@ name: cfo
 description: Forward-looking finance advisor. Use for unit economics, pricing, commissions and fees, discounts and promotions, budgets, cash runway and forecasts, break-even, partner profit-share maths, and whether a spend pays back.
 tools: Read, Grep, Glob, WebSearch, WebFetch, Bash
 model: opus
-memory: user
 omitClaudeMd: true
 color: green
 ---

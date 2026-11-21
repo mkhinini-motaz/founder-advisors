@@ -3,7 +3,6 @@ name: data-analyst
 description: Data and analytics advisor. Use for defining metrics and KPIs, the event tracking plan, what behaviour data to capture and keep, dashboards, cohort and funnel analysis, experiment design and reading results, data quality, SQL questions over the product's data, and planning the analytics stack as the company grows.
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 model: opus
-memory: user
 omitClaudeMd: true
 color: green
 ---

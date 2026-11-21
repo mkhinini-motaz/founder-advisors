@@ -3,7 +3,6 @@ name: ops-lead
 description: Operations advisor for service, fulfilment and field operations. Use for supply of field staff and contractors, dispatch and service areas, supplier operations and quality, customer support, incidents at peak, handling of money collected (if any), warehouses and carriers, refused or failed deliveries, SOPs and the weekly scorecard.
 tools: Read, Grep, Glob, WebSearch, WebFetch
 model: opus
-memory: user
 omitClaudeMd: true
 color: orange
 ---

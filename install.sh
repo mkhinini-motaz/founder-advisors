@@ -47,12 +47,19 @@ done <<< "$MAP"
 
 # what a source file becomes at its target: plugin variables filled in with the installed paths
 # (each ${CLAUDE_PLUGIN_ROOT}/<repo path> becomes its MAP target, ${CLAUDE_PLUGIN_DATA} becomes $DEST),
-# and the model line rewritten for advisors
+# the model line rewritten for advisors, and a memory line added after it
 SUBS=()
 while read -r src dst; do SUBS+=(-e "s|\${CLAUDE_PLUGIN_ROOT}/${src#plugin/}|$DEST/$dst|g"); done <<< "$MAP"
 SUBS+=(-e "s|\${CLAUDE_PLUGIN_DATA}|$DEST|g")
+# Copy installs give advisors their memory folder. The plugin cannot: the plugin directory accepts
+# the memory setting only from verified publishers.
+MEM=(-e '1,/^---$/{/^model:/a\
+memory: user
+}')
 render() {
-  if [ -n "$MODEL" ] && [[ "$1" == plugin/staff/agents/*.md ]]; then sed "${SUBS[@]}" -e "1,/^---\$/{s/^model:.*/model: $MODEL/;}" "$1"; else sed "${SUBS[@]}" "$1"; fi
+  if [[ "$1" != plugin/staff/agents/*.md ]]; then sed "${SUBS[@]}" "$1"
+  elif [ -n "$MODEL" ]; then sed "${SUBS[@]}" -e "1,/^---\$/{s/^model:.*/model: $MODEL/;}" "${MEM[@]}" "$1"
+  else sed "${SUBS[@]}" "${MEM[@]}" "$1"; fi
 }
 same() { render "$1" | cmp -s - "$2"; }
 clash=0

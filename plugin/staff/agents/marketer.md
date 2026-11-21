@@ -3,7 +3,6 @@ name: marketer
 description: Marketing and brand advisor for consumer apps, marketplaces and e-commerce. Use for positioning, campaigns, ad copy in the customers' own language, social channels and creators, offers, referral and loyalty, retention messaging, launch plans, seasonal calendars, and measuring what a channel costs.
 tools: Read, Grep, Glob, WebSearch, WebFetch
 model: opus
-memory: user
 omitClaudeMd: true
 color: pink
 ---

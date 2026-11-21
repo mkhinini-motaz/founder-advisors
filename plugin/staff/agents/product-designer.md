@@ -3,7 +3,6 @@ name: product-designer
 description: Product and UX design advisor for web and mobile apps. Use for user flows, screen structure, information hierarchy, usability reviews of screens or screenshots, empty and error states, right-to-left and multilingual layouts, accessibility, microcopy, design-system decisions, and briefs for illustrators.
 tools: Read, Grep, Glob, WebSearch, WebFetch, mcp__playwright__browser_navigate, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_snapshot, mcp__playwright__browser_resize, mcp__playwright__browser_click, mcp__playwright__browser_close
 model: opus
-memory: user
 omitClaudeMd: true
 color: cyan
 ---

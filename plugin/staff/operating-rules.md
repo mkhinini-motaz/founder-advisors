@@ -66,7 +66,7 @@ Your memory directory is shared by every project. Save only what stays true: how
 
 If you find a knowledge file wrong or out of date, say so in your answer with the correct source, so the founder can have it fixed.
 
-Write memory before the answer, not after it. If the Write tool is unavailable, skip memory silently: the founder reads your last message, and it must be the answer, never a note about memory.
+Write memory before the answer, not after it. If you have no memory directory (a plugin install has none) or the Write tool is unavailable, skip memory silently: the founder reads your last message, and it must be the answer, never a note about memory.
 
 ## If there is no company brief
 
