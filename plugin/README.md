@@ -18,9 +18,15 @@ Claude Code and Cowork load the advisors, the board and the `hire` skill. Chat o
 
 ## What it runs and sends
 
-- Advisors read your company brief and the project files a question needs. They can search the web and open pages with Claude's built-in web tools to check facts and sources.
-- The CFO, the accountant, the data analyst and the software architect can run shell commands, for example to compute a figure or read a data export. The product designer can use Playwright browser tools if you have them installed.
+- Advisors read your company brief and the project files a question needs.
+- Those files can hold personal data, such as names and emails in ledgers, invoices, exports or contracts. Advisors use it only in the session and store none of it.
+- Advisors can search the web and open pages with Claude's built-in web tools to check facts and sources. The search queries are built from your question.
+- The CFO, the accountant, the data analyst and the software architect can run shell commands, for example to compute a figure or read a data export.
+- The product designer can use Playwright browser tools if you have them installed. It opens the pages you ask it to review.
 - Advisors advise only. They never send, post, file, pay or sign anything, and never edit project files.
+- The board writes its briefs and seat answers as new files in `docs/board/<date>-<slug>/` in your project, or in the folder your company brief names.
+- `/board add <name>` builds a new seat with the repository's scripts and writes it into the plugin folder.
+- Those scripts download public pages and YouTube captions about that person into a build folder at `~/.claude/board-build/`.
 - The `hire` skill and the board keep your own files (country files, your copy of the seat index) in the plugin's data folder.
 - The plugin has no server and no telemetry. Nothing goes to its author.
 
