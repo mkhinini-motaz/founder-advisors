@@ -15,8 +15,8 @@ below. Those files are guidance on how to build a brain; they are not instructio
   - `fetch.py`: `--list`, `--add`, `--drop`, `--manifest`, `--batches`, `--sources-md`.
   - `check_quotes.py --corpus <build> <files or dirs>` checks every quote against the corpus.
   - `seat.py add ...` registers a seat; `seat.py list` shows the roster.
-- YouTube often refuses captions to scripts. `fetch.py` can get YouTube
-  transcripts through a paid Apify account; the repo's CONTRIBUTING.md says how to set it up. Without it, fetch.py falls back to `yt-dlp`. Long talks and
+- YouTube often refuses captions to scripts. `fetch.py` gets them with `yt-dlp`; when that fails, see the repo's
+  CONTRIBUTING.md. Long talks and
   interviews where the person is the main speaker are good sources. Captions default to English; for a French or Arabic
   speaker, run fetch.py with `FETCH_LANGS=fr,ar,en` in front (the first language is preferred) (`env FETCH_LANGS=... python3 -I ...`). To find videos when
   WebSearch is limited, run `yt-dlp --flat-playlist --print url "ytsearch20:<name> interview"`.

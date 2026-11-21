@@ -47,19 +47,22 @@ done <<< "$MAP"
 
 # what a source file becomes at its target: plugin variables filled in with the installed paths
 # (each ${CLAUDE_PLUGIN_ROOT}/<repo path> becomes its MAP target, ${CLAUDE_PLUGIN_DATA} becomes $DEST),
-# the model line rewritten for advisors, and a memory line added after it
+# the model line rewritten for advisors, and the copy-only settings added after it
 SUBS=()
 while read -r src dst; do SUBS+=(-e "s|\${CLAUDE_PLUGIN_ROOT}/${src#plugin/}|$DEST/$dst|g"); done <<< "$MAP"
 SUBS+=(-e "s|\${CLAUDE_PLUGIN_DATA}|$DEST|g")
-# Copy installs give advisors their memory folder. The plugin cannot: the plugin directory accepts
-# the memory setting only from verified publishers.
-MEM=(-e '1,/^---$/{/^model:/a\
-memory: user
-}')
+# Copy installs add the advisor settings the plugin cannot carry, because the plugin directory accepts
+# them only from verified publishers: a memory folder, a colour, and skipping the project's CLAUDE.md
+# (all but the architect, who needs the project's rules).
+COLORS="accountant=blue ceo=purple cfo=green data-analyst=green legal-counsel=red marketer=pink ops-lead=orange product-designer=cyan sales-lead=yellow software-architect=blue"
+extras() {
+  local a c; a=$(basename "$1" .md); c=$(printf '%s\n' $COLORS | sed -n "s/^$a=//p")
+  awk -v a="$a" -v c="$c" '!d && /^model:/ {print; print "memory: user"; if (a != "software-architect") print "omitClaudeMd: true"; print "color: " c; d=1; next} 1'
+}
 render() {
   if [[ "$1" != plugin/staff/agents/*.md ]]; then sed "${SUBS[@]}" "$1"
-  elif [ -n "$MODEL" ]; then sed "${SUBS[@]}" -e "1,/^---\$/{s/^model:.*/model: $MODEL/;}" "${MEM[@]}" "$1"
-  else sed "${SUBS[@]}" "${MEM[@]}" "$1"; fi
+  elif [ -n "$MODEL" ]; then sed "${SUBS[@]}" -e "1,/^---\$/{s/^model:.*/model: $MODEL/;}" "$1" | extras "$1"
+  else sed "${SUBS[@]}" "$1" | extras "$1"; fi
 }
 same() { render "$1" | cmp -s - "$2"; }
 clash=0

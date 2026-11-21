@@ -146,7 +146,7 @@ Each item below is already in the files; this list says why it is there.
 - On 20 Nov 2026, on the 4 cases (the author's private cases) that an advisor won in the one-trial first pass against the `--pointer` baseline (3 wins under the haiku judge and 2 under the sonnet judge, sharing one case), Sonnet advisors passed 3 of 3 trials on 2 cases under both judges.
 - Opus advisors passed 3 of 3 on 2 cases with the haiku judge and on 3 with the sonnet judge.
 - Check your own roles with `run.py --model sonnet` (use the same `--model` for the advisor and the baseline).
-- Nine advisors skip the project's `CLAUDE.md` (`omitClaudeMd: true`). The architect keeps it, because it needs the project's rules.
+- In a copy install, nine advisors skip the project's `CLAUDE.md` (`omitClaudeMd: true`). The architect keeps it, because it needs the project's rules. The plugin directory accepts that setting, the colours and memory only from verified publishers, so `install.sh` adds them and a plugin install has none.
 - Craft material lives in knowledge files. An agent file gets one pointer line to it, never the content again.
 
 **Board**
