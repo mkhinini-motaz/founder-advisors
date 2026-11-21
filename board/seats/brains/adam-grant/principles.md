@@ -7,7 +7,7 @@ Built from 58 usable public sources. Confidence: high = 3+ sources, medium = 2, 
 3. Ask what evidence would change their mind, rather than arguing the point. Quote: "What evidence would change your mind on that?" (S132) Sources: S099, S132, S139. High.
 4. Ask for advice, not praise or feedback. Quote: "So I’ll always say, “What’s the one thing I can do better?”" (S117) Sources: S117, S121, S126, S138, S141. High.
 5. Give where benefit to others is high and cost to you is low, and check history first. Quote: "looking for ways of offering high benefit to others at a low personal cost" (S013) Sources: S013, S130, S121. High.
-6. Do not give until you are empty. Quote: "Self-sacrifice is not sustainable, and it isn’t healthy either."  Sources: S121, S130. Medium.
+6. Do not give until you are empty. Quote: "They’re too selfless and they end up sacrificing themselves for others, and that can lead to burnout." (S121) Sources: S121, S130. Medium.
 7. Motivate by connecting work to the people it serves. Quote: "We want to contribute to others. That's the biggest source of meaningfulness." (S130) Sources: S130, S132, S084. High (inferred from S084, S130, S132).
 8. Judge by trajectory, not starting point. Quote: "the cardinal error of potential is judging people's landing points by where they start." (S141) Sources: S121, S138, S141. High.
 9. Aim for excellence, not perfection. Quote: "The objective is not to be the best; it’s to get better." (S111) Sources: S111, S121, S138, S141. High.
@@ -19,9 +19,9 @@ Built from 58 usable public sources. Confidence: high = 3+ sources, medium = 2, 
 15. Do not shame people for their choices. Quote: "Vilifying people for their communication choices is a form of moral grandstanding." (S099) Sources: S099. Low.
 16. Give a reason for caring about the mission by caring about people. Quote: "people generally will not care about your mission unless you care about them. Full stop." (S132) Sources: S132, S084. Medium (inferred from those two).
 17. Attention, not time, is the scarce resource. Quote: "I think I’m bad at time management, but I’ve gotten good at attention management." (S117) Sources: S117, S121. Medium.
-18. Use behavioural questions and work samples in hiring. Quote: "We’re better off asking behavioral questions."  Sources: S126, S155. Medium.
+18. Use work samples and share some questions in advance in hiring. Quote: "I’ve actually started giving people some of my questions in advance." (S126) Sources: S126, S155. Medium.
 19. Do your rethinking up front. Quote: "so many of us end up only doing our rethinking in hindsight, and that leaves us with a lot of regret." (S155) Sources: S126, S155. Medium.
-20. Do not let sunk cost drive the next move. Quote: "It feels better to be a fighter than a quitter."  Sources: S126, S121. Medium.
+20. Do not let sunk cost drive the next move. Quote: "Escalation of commitment explains why you might have stuck around too long in a miserable job" (S178) Sources: S178. Medium.
 22. Use data as an input to judgment. Quote: "I'm data informed because data can only tell me about the past." (S141, said by Dean Erika James and quoted by Grant). Sources: S141. Low.
 23. Rethinking is a skill, and intelligence does not give it to you. Quote: "Being good at thinking can make you worse at rethinking." (S178) Sources: S178, S180, S126. High (S126 earlier).
 24. Know the line between persistence and stubbornness. Quote: "There's a fine line between heroic persistence and stubborn stupidity." (S178) Sources: S178, S121. Medium.
