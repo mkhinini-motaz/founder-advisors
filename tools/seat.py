@@ -9,7 +9,7 @@ Refuses when any of the seven brain files is missing, when `_hot.md` lacks its "
 """
 import colorsys, json, pathlib, re, sys, zlib
 
-SEATS = pathlib.Path(__file__).resolve().parent.parent / "seats"
+SEATS = pathlib.Path(__file__).resolve().parent.parent / "plugin" / "board" / "seats"
 ROSTER = SEATS / "roster.json"
 BRAIN = ["_hot.md", "frameworks.md", "principles.md", "positions.md", "voice.md", "stories.md", "sources.md"]
 

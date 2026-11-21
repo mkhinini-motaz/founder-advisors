@@ -20,7 +20,7 @@ Each file opens with a `# <File>: <Full Name>` heading and one line on what it w
 
 ## Rules
 
-- Sources must be free to read: no paywalled articles, paid newsletter posts, books, book excerpts, or quote or summary sites (`python3 -I board/scripts/seat.py check` enforces the URL part).
+- Sources must be free to read: no paywalled articles, paid newsletter posts, books, book excerpts, or quote or summary sites (`python3 -I tools/seat.py check` enforces the URL part).
 - Every quote is verbatim from the corpus and carries a source id from `sources.md`, like "..." (S014). Quotes stay under 45 words. `check_quotes.py` must pass on the whole folder.
 - Quotation marks mean verbatim. Signature questions, paraphrases, and your own summaries go without them, so no agent later passes them off as the person's words.
 - Never attribute a view without a source id. A line that is your reading of several sources says "inferred from S0xx, S0yy".

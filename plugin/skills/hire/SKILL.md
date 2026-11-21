@@ -55,7 +55,7 @@ Write the country files with the advisor that will read them: ask it what it nee
 
 ## 4. Test each role with three cases against plain Claude
 
-In your clone, copy `evals/cases.example.json` to `evals/cases.json` (git-ignored; `run.py` runs from `${CLAUDE_PLUGIN_ROOT}/evals/`, so pass your file with `--cases`) and write three cases per role from questions you have asked. Each case has:
+In your clone, copy `evals/cases.example.json` to `evals/cases.json` (git-ignored; the plugin holds no code, so run `run.py` from your clone) and write three cases per role from questions you have asked. Each case has:
 
 - `question`: asked in your words.
 - `cwd`: the project folder that holds `.claude/company.md`.
@@ -65,8 +65,8 @@ In your clone, copy `evals/cases.example.json` to `evals/cases.json` (git-ignore
 Then run each role twice:
 
 ```
-python3 ${CLAUDE_PLUGIN_ROOT}/evals/run.py --cases <your clone>/evals/cases.json --model opus cfo             # the advisor
-python3 ${CLAUDE_PLUGIN_ROOT}/evals/run.py --cases <your clone>/evals/cases.json --model opus --baseline --pointer cfo  # plain Claude, told to read the brief first
+python3 evals/run.py --model opus cfo             # the advisor
+python3 evals/run.py --model opus --baseline --pointer cfo  # plain Claude, told to read the brief first
 ```
 
 If you installed the advisors as a plugin, put `ADVISOR_PREFIX=founder-advisors:` before the first command, because the plugin names them `founder-advisors:<role>`. The `--pointer` baseline is the fair one: without it, plain Claude may never open your brief, and the advisor wins only because it was told to. Use the model the advisor is installed with in `--model` (`opus` unless you installed with `--model`), so both runs use the same one. Keep a role only if it passes a case that this baseline fails.

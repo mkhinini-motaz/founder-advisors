@@ -9,9 +9,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 evals/test_run.py
-      - run: python3 board/scripts/test_check_quotes.py
-      - run: python3 board/scripts/check_index.py
-      - run: python3 -I board/scripts/seat.py check
-      - run: python3 .github/check-skills.py skills/hire board --agents staff/agents/*.md
+      - run: python3 tools/test_check_quotes.py
+      - run: python3 tools/check_index.py
+      - run: python3 -I tools/seat.py check
+      - run: python3 .github/check-skills.py plugin/skills/hire plugin/board --agents plugin/staff/agents/*.md
       - run: bash -n install.sh
       - run: bash test_install.sh

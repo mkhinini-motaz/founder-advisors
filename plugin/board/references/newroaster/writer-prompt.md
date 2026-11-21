@@ -25,7 +25,7 @@ Rules:
 - Lines that are your reading of several sources say "inferred from S0xx, S0yy".
 - No em dashes or en dashes anywhere. Plain English, no filler.
 
-When done, run: python3 -I ${CLAUDE_PLUGIN_ROOT}/board/scripts/check_quotes.py --corpus [build] ${CLAUDE_PLUGIN_ROOT}/board/seats/brains/[slug]
+When done, run: python3 -I <clone of the repo>/tools/check_quotes.py --corpus [build] ${CLAUDE_PLUGIN_ROOT}/board/seats/brains/[slug]
 Fix anything it reports in your files, and run it again until your files pass.
 
 Reply with one line: files written and entry counts.

@@ -11,7 +11,7 @@ Do not post details, tokens or proof-of-concept output in a public issue.
 
 - Your company brief: any file, script or prompt that sends it, or text taken from it, anywhere but your own agent session.
 - A knowledge file or seat that holds private data about a person.
-- A script in `board/scripts/` or `evals/` (`fetch.py` reaches the network) that runs unexpected commands or writes outside the repo.
+- A script in `tools/` or `evals/` (`fetch.py` reaches the network) that runs unexpected commands or writes outside the repo.
 
 ## Out of scope
 

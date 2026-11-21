@@ -6,7 +6,7 @@ pillars and the natural tensions in short form, mapped to a company's problems. 
 
 **This is an example index**, written for Mendly, the made-up tradesperson marketplace in `examples/company.md` (customers, tradespeople,
 fixed prices, a second city). Rewrite the problem rows for your own company: keep the area lists, change the left column to the problems
-your company actually has, and run `python3 ${CLAUDE_PLUGIN_ROOT}/board/scripts/check_index.py` until it prints `ok`. Keys are the roster keys (a seat's name in its `_hot.md` is `council-<key>`). (q) marks a quick-depth brain, which
+your company actually has, and run `python3 tools/check_index.py` (from a clone of the repo) until it prints `ok`. Keys are the roster keys (a seat's name in its `_hot.md` is `council-<key>`). (q) marks a quick-depth brain, which
 has a thinner public record: when a quick seat and a standard seat fit equally, seat the standard one.
 
 ## Problems to seats

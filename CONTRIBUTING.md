@@ -8,7 +8,7 @@ Open the "Eval result" issue form. Wins and null results both count. Remove comp
 
 ## 2. Add an example brief
 
-Write a made-up brief for another kind of business. Copy the structure and length of `examples/company.md`. Use invented names that are not real brands, no real people, and settled decisions with the founder's reason quoted.
+Write a made-up brief for another kind of business. Copy the structure and length of `plugin/examples/company.md`. Use invented names that are not real brands, no real people, and settled decisions with the founder's reason quoted.
 
 ## 3. Add a country pack
 
@@ -17,14 +17,14 @@ Rules:
 - An "as of" date at the top.
 - Every figure cited to the adopted official text.
 - Single-source items marked **(verify)**.
-- Copy this line from `examples/tunisia/`: "General information, not legal, tax or financial advice. Check the official text and a licensed professional before relying on it."
+- Copy this line from `plugin/examples/tunisia/`: "General information, not legal, tax or financial advice. Check the official text and a licensed professional before relying on it."
 - No personal data.
 
-`examples/tunisia/` is the model. `staff/knowledge/templates/knowledge.md` is the template. Open the "Country pack" issue first to claim a country.
+`plugin/examples/tunisia/` is the model. `plugin/staff/knowledge/templates/knowledge.md` is the template. Open the "Country pack" issue first to claim a country.
 
 ## 4. Add a craft knowledge file
 
-Methods from free public sources or practice, each cited with its URL and its caveat. Put it in `staff/knowledge/`, and give the agent file one line that points to it.
+Methods from free public sources or practice, each cited with its URL and its caveat. Put it in `plugin/staff/knowledge/`, and give the agent file one line that points to it.
 
 ## 5. Propose a new role
 
@@ -36,7 +36,7 @@ A new role needs at least 3 eval cases and a win over the `--pointer` baseline. 
 - The quote checker passes.
 - The simulation label stays.
 - No lines that state a person's religion or political views.
-- List your sources. Sources must be free to read: no paywalled articles, paid newsletter posts, books, book excerpts, or quote or summary sites (`python3 -I board/scripts/seat.py check` enforces the URL part).
+- List your sources. Sources must be free to read: no paywalled articles, paid newsletter posts, books, book excerpts, or quote or summary sites (`python3 -I tools/seat.py check` enforces the URL part).
 
 ## Writing a skill or an advisor file
 
@@ -45,12 +45,12 @@ Skill format: https://agentskills.io/specification. `.github/check-skills.py` ch
 - `name` is 1-64 characters (a-z, 0-9, single hyphens) and equals the folder name.
 - `description` says what the skill does and when to use it. Put the use case first: the listing cuts the description at 1,536 characters. The hard limit is 1,024.
 - Keep `SKILL.md` under 500 lines. Put details in `references/`.
-- An advisor file in `staff/agents/` has a `name` equal to its file name and a non-empty `description`.
-- A knowledge file starts from `staff/knowledge/templates/knowledge.md`.
+- An advisor file in `plugin/staff/agents/` has a `name` equal to its file name and a non-empty `description`.
+- A knowledge file starts from `plugin/staff/knowledge/templates/knowledge.md`.
 
 ## Bump the version
 
-When you change anything a skill, an advisor or a seat, raise `version` in `.claude-plugin/plugin.json`. Installed copies update only when the version rises.
+When you change anything a skill, an advisor or a seat, raise `version` in `plugin/.claude-plugin/plugin.json`. Installed copies update only when the version rises.
 
 ## Pull request process
 
@@ -75,11 +75,12 @@ From the repo root:
 
 ```
 python3 evals/test_run.py
-python3 board/scripts/test_check_quotes.py
-python3 board/scripts/check_index.py
+python3 tools/test_check_quotes.py
+python3 tools/check_index.py
+python3 -I tools/seat.py check
 bash -n install.sh
 bash test_install.sh
-python3 .github/check-skills.py skills/hire board --agents staff/agents/*.md
+python3 .github/check-skills.py plugin/skills/hire plugin/board --agents plugin/staff/agents/*.md
 ```
 
-The same six run on every push and pull request (`.github/workflows/checks.yml`).
+The same seven run on every push and pull request (`.github/workflows/checks.yml`).

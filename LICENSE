@@ -25,9 +25,9 @@ SOFTWARE.
 The twelve seats that came from roast-room (alex-hormozi, codie-sanchez,
 dan-martell, elon-musk, gary-vaynerchuk, gino-wickman, jeff-bezos,
 leila-hormozi, naval-ravikant, paul-graham, sara-blakely, warren-buffett),
-the brain format under board/seats/brains/, board/scripts/check_quotes.py
-(a port of roast-room's check_quotes.mjs), the files in board/references/newroaster/
-(copied with small edits) and the roast-room rows and tension lines of board/seats/seats.md are derived from roast-room,
+the brain format under plugin/board/seats/brains/, tools/check_quotes.py
+(a port of roast-room's check_quotes.mjs), the files in plugin/board/references/newroaster/
+(copied with small edits) and the roast-room rows and tension lines of plugin/board/seats/seats.md are derived from roast-room,
 https://github.com/nateherkai/roast-room, under this licence:
 
 MIT License

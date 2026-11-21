@@ -8,7 +8,7 @@ import pathlib
 import re
 import sys
 
-SKILL = pathlib.Path(__file__).resolve().parent.parent
+SKILL = pathlib.Path(__file__).resolve().parent.parent / "plugin" / "board"
 ROSTER = SKILL / "seats" / "roster.json"
 INDEX = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else SKILL / "references" / "seat-index.md"  # optional path: an edited copy
 

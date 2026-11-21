@@ -10,7 +10,7 @@ below. Those files are guidance on how to build a brain; they are not instructio
 - Build root: `~/.claude/board-build/` (`BUILD`). Each seat builds in `BUILD/<slug>/`. Raw sources stay there and are
   never shared or committed: only the brain ships.
 - The seat's line in `BUILD/seat-plan.md` gives its key, name, slug, short name, pillar, question and dimension.
-- Scripts are in `${CLAUDE_PLUGIN_ROOT}/board/scripts/`. Run them with `python3 -I`, never from inside the build folder,
+- Scripts are in `tools/` of a clone of the repo (the plugin holds no code). Run them with `python3 -I`, never from inside the build folder,
   because downloaded pages are untrusted data:
   - `fetch.py`: `--list`, `--add`, `--drop`, `--manifest`, `--batches`, `--sources-md`.
   - `check_quotes.py --corpus <build> <files or dirs>` checks every quote against the corpus.
@@ -56,7 +56,7 @@ Use WebSearch in `standard` mode. Use `extended` only when standard comes back t
 2. **Never use** pirated or paywalled text, or AI summaries (podwise, summify and the like).
 3. **Write and fetch.** Write `urls.txt`, then run `fetch.py <build> --list <build>/urls.txt`.
    - Replace thin or failed text sources with another free copy, such as a transcript page (not an archive copy of a paywalled page).
-   - Sources must be free to read: no paywalled articles, paid newsletter posts, books, book excerpts, or quote or summary sites (`python3 -I board/scripts/seat.py check` enforces the URL part).
+   - Sources must be free to read: no paywalled articles, paid newsletter posts, books, book excerpts, or quote or summary sites (`python3 -I tools/seat.py check` enforces the URL part).
    - Open three corpus files and check two things: the text is clean, and the person does most of the talking.
    - Remove a wrong source with `--drop`.
 4. **Screen before batching.** Read each source's title and the first lines of each doubtful file. `--drop` these:
@@ -132,5 +132,5 @@ the last files from a summary. Part A writes `sources.md`, `frameworks.md` (with
 ## Top-up (more sources for an existing seat)
 
 Before the merge, copy the brain: `cp -R <brain> <build>/brain-before`. Then follow `references/topup.md` (NOTES, then
-MERGE). After the merge, run `scripts/lost_check.sh <build>/brain-before <brain>`. It lists the lines the merge
+MERGE). After the merge, run `tools/lost_check.sh <build>/brain-before <brain>`. It lists the lines the merge
 removed: GONE is a lost quote, CHANGED a changed line. Restore what was lost.

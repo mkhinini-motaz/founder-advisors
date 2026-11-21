@@ -39,8 +39,8 @@ import subprocess
 import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
-# The advisors' shared files: staff/ beside this folder (repo or plugin), or the parent folder when installed as ~/.claude/staff/evals.
-STAFF = pathlib.Path(os.environ.get("STAFF_DIR", HERE.parent / "staff" if (HERE.parent / "staff").is_dir() else HERE.parent)).expanduser()
+# The advisors' shared files: plugin/staff/ beside this folder (the repo), or the parent folder when installed as ~/.claude/staff/evals.
+STAFF = pathlib.Path(os.environ.get("STAFF_DIR", HERE.parent / "plugin" / "staff" if (HERE.parent / "plugin" / "staff").is_dir() else HERE.parent)).expanduser()
 # A plugin install names its agents <plugin>:<agent>; set ADVISOR_PREFIX=founder-advisors: for that.
 PREFIX = os.environ.get("ADVISOR_PREFIX", "")
 # The advisor files: staff/agents beside this folder (repo or plugin), else ~/.claude/agents/staff (installed).

@@ -10,8 +10,8 @@ the end, and count before you trust it.
 
 A seat is a simulation built from a person's public work, not the person. Every seat answer starts with the simulation label from its `_hot.md`. Keep the label when you relay or quote an answer. Each seat has a brain at
 `${CLAUDE_PLUGIN_ROOT}/board/seats/brains/<slug>/`. Its `_hot.md` holds the seat's instructions first (`## Instructions`) and its hot sheet after them (`## Hot sheet`).
-The roster (key, name, pillar and question for every seat) prints with `python3 -I ${CLAUDE_PLUGIN_ROOT}/board/scripts/seat.py list`. Scripts are in
-this skill's `scripts/` folder (`${CLAUDE_PLUGIN_ROOT}/board/scripts/`); always run them with `python3 -I`.
+The roster (key, name, pillar and question for every seat) prints with `python3 -I tools/seat.py list`. The plugin holds no code: the scripts are in the `tools/` folder of a clone of
+https://github.com/mkhinini-motaz/founder-advisors, so run them from that clone, always with `python3 -I`.
 
 **Seat index.** Read `${CLAUDE_PLUGIN_DATA}/skills/board/references/seat-index.md` if it exists, else the shipped
 `${CLAUDE_PLUGIN_ROOT}/board/references/seat-index.md` (the `hire` skill copies the shipped one to the first path before it is edited).
@@ -55,7 +55,7 @@ Spawn `general-purpose` with `model: "opus"`. Give it this prompt, with the brac
 > [answer path] and no other file. Reply with the path and a five-line summary.
 
 Run the quote check on each answer before using it:
-`python3 -I ${CLAUDE_PLUGIN_ROOT}/board/scripts/check_quotes.py --brain <brain dir> <answer>`. Drop any quote it cannot find, and say so.
+`python3 -I tools/check_quotes.py --brain <brain dir> <answer>`, run from a clone of the repo. Without a clone, check the quotes against the brain files by reading them. Drop any quote you cannot find, and say so.
 
 ## Ask one seat
 
@@ -145,7 +145,7 @@ about 2M tokens. Use a board for decisions that are hard to undo, not for routin
 1. Add the person's line to `~/.claude/board-build/seat-plan.md` (create it if missing): key, name, slug, short name, pillar, question and
    dimension. Sharpen the pillar against the existing seats.
 2. Build all the seats asked for in one Workflow run. This skill's instruction is the opt-in for it. Run it with
-   `scriptPath` set to the absolute path of `${CLAUDE_PLUGIN_ROOT}/board/workflows/seat-build.js` and
+   `scriptPath` set to the absolute path of `tools/seat-build.js` in a clone of the repo and
    `args: {home: "<absolute home folder>", board: "${CLAUDE_PLUGIN_ROOT}/board", seats: [{key, slug}, ...]}`. Add `depth: "standard"` only when the founder asks for it.
    - The main thread wakes once, at the end. Separate background agents woke it twice per agent, which was 15% of the
      cost of the first builds.
@@ -153,7 +153,7 @@ about 2M tokens. Use a board for decisions that are hard to undo, not for routin
    - The stage rules are in `references/build-seat.md`; the workflow's agents read them there.
 3. Do "After the build" in `references/build-seat.md`.
 4. Add the seat to the seat index (copy it to the DATA path first if the shipped one is the only one): one line under its area, and its key in the rows of the problems it leads.
-   Then run `python3 -I ${CLAUDE_PLUGIN_ROOT}/board/scripts/check_index.py <seat index path>`; it must print `ok`.
+   Then run `python3 -I tools/check_index.py <seat index path>` from a clone; it must print `ok`.
 
 Plugin install: a new seat is written into the plugin folder, which an update replaces. Copy new seats and the roster out before updating, or use `install.sh` if you add seats.
 
