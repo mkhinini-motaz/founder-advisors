@@ -51,6 +51,10 @@ The advisors are not lawyers, accountants or financial advisers. Have a licensed
 
 The plugin holds only text. The eval runner and the tools that keep the board's seats up to date are in the repository, https://github.com/mkhinini-motaz/founder-advisors, along with a copy install script and the contribution guide. Licensed under MIT.
 
+## Privacy
+
+[Privacy policy](https://github.com/mkhinini-motaz/founder-advisors/blob/main/PRIVACY.md): the author runs no server and collects no data.
+
 ## Support
 
 Questions and bugs: open an issue at https://github.com/mkhinini-motaz/founder-advisors/issues. Security problems: report them privately from the repository's Security tab (private vulnerability reporting), not in a public issue.
