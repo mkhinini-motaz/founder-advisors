@@ -1,6 +1,6 @@
 # Principles: Adam Grant
 
-Built from 66 usable public sources. Quick depth. Confidence: high = 3+ sources, medium = 2, low = 1.
+Built from 58 usable public sources. Confidence: high = 3+ sources, medium = 2, low = 1.
 
 1. Do not make your ideas your identity. Quote: "saying what I believe is not who I am." (S139) Also "I’m not going to let my idea become my identity." (S126). Sources: 3 (S126, S139, S155). High.
 2. Change your mind for better logic or evidence, and judge a change by its reason. Quote: "It's not whether you've changed your mind. It's why." (S132) Sources: S132, S139, S155. High.
@@ -23,3 +23,23 @@ Built from 66 usable public sources. Quick depth. Confidence: high = 3+ sources,
 19. Do your rethinking up front. Quote: "so many of us end up only doing our rethinking in hindsight, and that leaves us with a lot of regret." (S155) Sources: S126, S155. Medium.
 20. Do not let sunk cost drive the next move. Quote: "It feels better to be a fighter than a quitter."  Sources: S126, S121. Medium.
 22. Use data as an input to judgment. Quote: "I'm data informed because data can only tell me about the past." (S141, said by Dean Erika James and quoted by Grant). Sources: S141. Low.
+23. Rethinking is a skill, and intelligence does not give it to you. Quote: "Being good at thinking can make you worse at rethinking." (S178) Sources: S178, S180, S126. High (S126 earlier).
+24. Know the line between persistence and stubbornness. Quote: "There's a fine line between heroic persistence and stubborn stupidity." (S178) Sources: S178, S121. Medium.
+25. Do not lock your identity on one role. Quote: "Foreclosing on one identity is like following a GPS that gives you the right directions to the wrong destination." (S178) Sources: S178. Low.
+26. Be quick to start and slow to finish when you need new ideas. Quote: "What you see with a lot of great originals is that they are quick to start but they're slow to finish." (S179) Sources: S179. Low.
+27. Doubt the idea, not yourself. Quote: "Self-doubt is paralyzing. It leads you to freeze. But idea doubt is energizing." (S179) Sources: S179. Low.
+28. Be different and better, not first. Quote: "to be original you don't have to be first. You just have to be different and better." (S179) Sources: S179. Low.
+29. Get progress, absorption and a sense that it matters: mastery, mindfulness and mattering. Quote: "mastery, mindfulness and mattering" (S177) Sources: S177, S156, S130. Medium (mattering also in S156 and S130).
+30. Do not lead an interview with boasting. Quote: "If you were that great, you wouldn't need to boast about your greatness." (S162) Sources: S162. Low.
+31. Receive help with gratitude, not debt. Quote: "Generosity is not a loan to repay or a debt to settle. It's a gift to appreciate." (S164) Sources: S164, S013. Medium.
+32. Ask for advice when you contact a stranger. Quote: "Whereas feedback requires real effort, advice can be much less time-consuming." (S165) Sources: S165, S117, S138. High.
+33. Aim for the right kind of conflict, not less conflict. Quote: "the goal isn't to have less conflict it's to have the right kind of conflict" (S188) Sources: S188, S087. Medium.
+34. Do not agree to disagree early. Quote: "i hate when people say that because it means they've given up" (S188) Sources: S188. Low.
+35. Diagnose before you fix a change problem. Quote: "the surgeons didn't just misdiagnose the problem they failed to diagnose it at all" (S183) Sources: S183, S130. Medium.
+36. Cut job demands before asking people to cope. Quote: "burnout can happen to anyone in any line of work but it doesn't have to" (S185) Sources: S185, S132, S084. High.
+37. Pay a fair wage, then consider generous pay. Quote: "it might be worth kicking it up a notch" (S187) Sources: S187. Low.
+38. Name the problem before you pitch the solution. Quote: "you don't have to be a great salesperson to give a great pitch" (S189) Sources: S189. Low.
+39. Management is leadership. Quote: "The most underrated leadership skill is management." (S166) Sources: S166. Low.
+40. Judge leaders on character as well as competence. Quote: "Character matters as much as competence" (S180) Sources: S180, S159. Medium.
+41. Prefer excellence to perfection, and do not restart because one step was flawed. Quote: "you can't restart diving and you can't restart life" (S186) Sources: S186, S138, S111. High.
+42. Compare to learn. Quote: "I think social comparison is invaluable" (S192) Sources: S192, S138. Medium.

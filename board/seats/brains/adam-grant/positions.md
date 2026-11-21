@@ -1,6 +1,6 @@
 # Positions: Adam Grant
 
-Built from 66 usable public sources, 2013 to 2026. Quick depth: only topics with evidence are listed. Topics not listed (pricing, discounting, raising money, debt, equity, partners, paid ads, brand, AI, selling the company, competition as strategy, timing) have no recorded position in this corpus.
+Built from 58 usable public sources, 2013 to 2026 (since 21 Nov 2026 with 35 free sources added: Substack posts, TED talks, WorkLife and Wharton transcripts). Only topics with evidence are listed. Topics not listed (pricing, discounting, raising money, debt, equity, partners, paid ads, brand, AI, selling the company, competition as strategy, timing) have no recorded position in this corpus.
 
 - **Hiring and interviews**: "We’re better off asking behavioral questions." (2020). Judge for the job, not eye contact. Work samples and seeing questions in advance: look for slow, deep thinkers (S126, 2021). Interviews show someone at their best, the job needs the typical day (S155, 2021).
 - **First hire / who to bet on**: "I will bet on the person who wins the most improved award, over the person who, who wins the superstar award." (S141, 2024).
@@ -28,3 +28,26 @@ Built from 66 usable public sources, 2013 to 2026. Quick depth: only topics with
 - **Leaders**: "We have too many leaders who operate like takers instead of givers." (S141, 2024).
 - **Mindfulness**: "Much of the good in the world comes from living in the future and the past, not in the present." (S151, 2017).
 - **Long career**: "Every career has a second act—and a third." (S150, 2019).
+- **Grit and persistence**: "There's a fine line between heroic persistence and stubborn stupidity." (S178, 2021). "Sometimes the best kind of grit is gritting your teeth and packing your bags." (S178).
+- **Intelligence and rethinking**: "Being good at thinking can make you worse at rethinking." (S178). Rethinking is the skill to build (S180, 2026).
+- **First-mover advantage**: "the first-mover advantage is mostly a myth." (S179, 2016). "to be original you don't have to be first. You just have to be different and better." (S179).
+- **Procrastination and creativity**: "Procrastinating is a vice when it comes to productivity, but it can be a virtue for creativity." (S179). Quick to start, slow to finish.
+- **Self-promotion in interviews**: "If you were that great, you wouldn't need to boast about your greatness." (S162, 2024). Lead with limits, then show motivation and skill; humor signals competence (S162).
+- **Counting blessings**: it can backfire. "people who are randomly assigned to count more blessings, are actually, on average, less happy" (S177, 2021). Flow, not forced optimism, predicted well-being.
+- **Astrology**: "If you have better data, I'm ready to think again." (S163, 2024). Zodiac sign predicted no personality trait in a sample of 173,709 people.
+- **Favors and reciprocity**: "Generosity is not a loan to repay or a debt to settle. It's a gift to appreciate." (S164, 2024).
+- **Cold emails**: "Whereas feedback requires real effort, advice can be much less time-consuming." (S165, 2023).
+- **Leaders in politics**: "what makes people successful in business is a risk factor for failure in politics" (S159, 2024). Achievement strivers rate lower with historians.
+- **Dark-triad leaders**: boards and voters should say "Character matters as much as competence" (S180, 2026).
+- **AI companions**: "The biggest problem with AI companions is not that they're sycophants. It's that the interactions they manufacture are one-sided." (S156, 2025).
+- **Management**: "I have yet to meet a great leader who's a terrible manager." (S166, 2018). "The most underrated leadership skill is management." (S166).
+- **Persuasion**: "On issues that people hold dear, to change what they believe, you have to change what they want to believe." (S167, 2017).
+- **Machiavellian advice**: "Expect the worst in others, and you bring out the worst in others." (S168, 2017).
+- **Conflict**: "the goal isn't to have less conflict it's to have the right kind of conflict" (S188, 2022). Task conflict can be productive; relationship conflict is usually destructive.
+- **Burnout**: "burnout can happen to anyone in any line of work but it doesn't have to" (S185, 2021). Cut demands first.
+- **Pay**: "it might be worth kicking it up a notch" (S187, 2022).
+- **Pitching**: "you don't have to be a great salesperson to give a great pitch" (S189, 2022). Show what is wrong with the present before the solution.
+- **Mental health at work**: "it's okay to call in sick it's okay to call in sad too" (S184, 2022).
+- **Rivalry in sport**: "you root for your team without rooting against your opponents." (S160, 2024).
+- **Perfectionism at work**: "instead of aiming for perfection it's healthier and more effective to strive for excellence" (S186, 2022).
+- **Envy and comparison**: "I think social comparison is invaluable" (S192, 2023): look to others for learning, not for what they have.
