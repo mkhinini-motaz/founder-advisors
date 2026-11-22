@@ -12,6 +12,22 @@ It was built by one founder for one small company and then cleaned of its names,
 >
 > **The advisors give no professional advice.** The accountant and legal-counsel advisors prepare questions for a licensed accountant or lawyer. They do not replace one.
 
+## How the parts fit
+
+```mermaid
+flowchart TD
+  Q["Your question, in a coding agent"] --> BR["The company brief<br/>.claude/company.md and the files it lists"]
+  BR --> ANS["Answer"]
+  BR --> ADV["An advisor subagent (optional)<br/>operating rules + dated knowledge files"]
+  ADV --> ANS
+  ADV -- "a call that is hard to undo" --> BL["A Board: line naming the seats to ask"]
+  BL --> S["Board seats<br/>each answers blind to the others"]
+  S --> ANS
+  E["evals/run.py<br/>advisor against plain Claude told to read the brief"] -. keep, fix or delete .-> ADV
+```
+
+The brief is the part that works in any agent. The advisors, the board and the evals are Claude Code extras on top of it.
+
 ## Start in 10 minutes (any agent)
 
 No install. This works in any coding agent that reads a project instruction file.
